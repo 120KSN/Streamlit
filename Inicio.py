@@ -26,3 +26,10 @@ Utilize o menu lateral para navegar entre elas:
 
 # texto de informação
 st.info("Selecione uma página no menu lateral para começar.")
+
+st.write("De sua nota ao site:")
+
+estrelas = st.feedback("stars")
+
+if estrelas:
+    st.markdown("Obrigado pelo feedback!")
